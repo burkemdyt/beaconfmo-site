@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Dark background circle -->
+  <circle cx="256" cy="256" r="256" fill="#1a1917"/>
+  <!-- Gold border ring -->
+  <circle cx="256" cy="256" r="240" stroke="#b8922a" stroke-width="8" fill="none"/>
+  <!-- Vertical mast -->
+  <line x1="256" y1="80" x2="256" y2="420" stroke="#b8922a" stroke-width="12" stroke-linecap="round"/>
+  <!-- Left beam -->
+  <line x1="256" y1="100" x2="152" y2="320" stroke="#b8922a" stroke-width="8" stroke-linecap="round"/>
+  <!-- Right beam -->
+  <line x1="256" y1="100" x2="360" y2="320" stroke="#b8922a" stroke-width="8" stroke-linecap="round"/>
+  <!-- Horizontal crossbar -->
+  <line x1="160" y1="300" x2="352" y2="300" stroke="#b8922a" stroke-width="7" stroke-linecap="round"/>
+  <!-- Light circle at top -->
+  <circle cx="256" cy="80" r="24" fill="#b8922a"/>
+</svg>

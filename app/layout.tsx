@@ -26,6 +26,10 @@ export const metadata: Metadata = {
   },
   description:
     'Beacon partners with independent agents to deliver annuity contracts, carrier access, and back-office support you need to grow a practice worth keeping.',
+  icons: {
+    icon: '/icon.svg',
+    apple: '/icon.svg',
+  },
 }
 
 export default function RootLayout({
