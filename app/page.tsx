@@ -412,127 +412,42 @@ export default function Home() {
           <em>close</em> with confidence.
         </h2>
 
-        <div className="grid grid-cols-1 lg:grid-cols-[1fr_420px] gap-12 lg:gap-16 mt-8">
-          <div>
-            <p className="section-sub mb-9 reveal">
-              Tools, training, and support built the way agents actually work —
-              fast, specific, and focused on the case in front of you.
-            </p>
+        <div className="max-w-[720px] mt-8">
+          <p className="section-sub mb-9 reveal">
+            Tools, training, and support built the way agents actually work —
+            fast, specific, and focused on the case in front of you.
+          </p>
 
-            <div className="space-y-0 reveal reveal-d1">
-              {resources.map((r) => {
-                const isExternal = r.href.startsWith('http')
-                const inner = (
-                  <>
-                    <div className="flex items-center gap-3">
-                      <span className="inline-block text-[10px] font-medium tracking-[0.1em] uppercase text-gold bg-gold/[0.08] rounded-[3px] px-2 py-[3px]">
-                        {r.tag}
-                      </span>
-                      <span className="text-[14px] font-normal text-charcoal group-hover:text-gold transition-colors duration-200">
-                        {r.title}
-                      </span>
-                    </div>
-                    <span className="text-gold/40 group-hover:text-gold group-hover:translate-x-1 transition-all duration-200">
-                      &rarr;
+          <div className="space-y-0 reveal reveal-d1">
+            {resources.map((r) => {
+              const isExternal = r.href.startsWith('http')
+              const inner = (
+                <>
+                  <div className="flex items-center gap-3">
+                    <span className="inline-block text-[10px] font-medium tracking-[0.1em] uppercase text-gold bg-gold/[0.08] rounded-[3px] px-2 py-[3px]">
+                      {r.tag}
                     </span>
-                  </>
-                )
-                const cls = "flex items-center justify-between py-4 border-b border-charcoal/[0.06] group no-underline hover:pl-2 transition-all duration-200"
-                return isExternal ? (
-                  <a key={r.title} href={r.href} target="_blank" rel="noopener noreferrer" className={cls}>
-                    {inner}
-                  </a>
-                ) : (
-                  <Link key={r.title} href={r.href} className={cls}>
-                    {inner}
-                  </Link>
-                )
-              })}
-            </div>
-          </div>
-
-          {/* Featured testimonial card */}
-          <div className="bg-charcoal rounded-[6px] p-8 lg:p-10 border border-[rgba(184,146,42,0.08)] self-start reveal reveal-d2">
-            <div className="inline-block text-[10px] font-medium tracking-[0.12em] uppercase text-gold-light bg-white/[0.04] rounded-[3px] px-3 py-1 mb-6">
-              From the Field
-            </div>
-            <blockquote className="font-serif text-[18px] italic leading-[1.7] text-white/70 mb-6">
-              &ldquo;I went from waiting hours, sometimes days for a response, to
-              getting my case design in a quick phone call. The team at Beacon is
-              there when you need them. The comp is competitive, marketing is
-              effective, but most of all — it is the support that keeps me
-              here.&rdquo;
-            </blockquote>
-            <div>
-              <div className="text-[14px] font-medium text-white">
-                David R. — Independent Producer
-              </div>
-              <div className="text-[12px] font-light text-white/35 mt-1">
-                Licensed in 12 states &nbsp;&middot;&nbsp; $3.2M placed YTD
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* ── TESTIMONIALS ── */}
-      <section className="px-[5vw] lg:px-[8vw] py-20 lg:py-28 border-t border-charcoal/[0.06]" id="testimonials">
-        <div className="text-center mb-12">
-          <div className="section-label reveal">Agent Stories</div>
-          <h2 className="section-headline reveal reveal-d1">
-            Agents who made the
-            <br />
-            <em>switch — and stayed.</em>
-          </h2>
-        </div>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {[
-            {
-              quote:
-                "I'd been with a captive carrier for six years. Beacon gave me access to 30 carriers in one week. My first year here I doubled my annuity production because I finally had the right product for every client.",
-              name: 'Marcus T.',
-              meta: 'Independent Agent \u00b7 Florida \u00b7 $2.8M placed',
-            },
-            {
-              quote:
-                "The case manager they assigned me knew FIA mechanics better than anyone I'd worked with at the carrier level. That expertise is rare. Every new case I run goes through Beacon first now.",
-              name: 'Linda S.',
-              meta: 'Financial Advisor \u00b7 Texas \u00b7 14 years in the field',
-            },
-            {
-              quote:
-                "I'd tried marketing programs at two other FMOs — paid for leads that went nowhere and mailers that never converted. When I moved to Beacon, I was skeptical it would be any different. But their lead gen actually delivered qualified prospects, and the preset appointments changed everything.",
-              name: 'James W.',
-              meta: 'Life & Annuity Producer \u00b7 Georgia \u00b7 $1.1M first year',
-            },
-          ].map((story, i) => (
-            <div
-              key={story.name}
-              className={`bg-white border border-charcoal/[0.06] rounded-[6px] p-8 hover:shadow-[0_12px_40px_rgba(0,0,0,0.06)] hover:translate-y-[-2px] transition-all duration-300 reveal reveal-d${i + 1}`}
-            >
-              <div className="flex gap-[2px] text-gold mb-4">
-                {Array(5)
-                  .fill(null)
-                  .map((_, j) => (
-                    <span key={j} className="text-[16px]">
-                      &#9733;
+                    <span className="text-[14px] font-normal text-charcoal group-hover:text-gold transition-colors duration-200">
+                      {r.title}
                     </span>
-                  ))}
-              </div>
-              <p className="text-[14px] font-light leading-[1.85] text-[#5a5448] mb-6">
-                &ldquo;{story.quote}&rdquo;
-              </p>
-              <div>
-                <div className="text-[14px] font-medium text-charcoal">
-                  {story.name}
-                </div>
-                <div className="text-[12px] font-light text-[#5a5448]/60 mt-1">
-                  {story.meta}
-                </div>
-              </div>
-            </div>
-          ))}
+                  </div>
+                  <span className="text-gold/40 group-hover:text-gold group-hover:translate-x-1 transition-all duration-200">
+                    &rarr;
+                  </span>
+                </>
+              )
+              const cls = "flex items-center justify-between py-4 border-b border-charcoal/[0.06] group no-underline hover:pl-2 transition-all duration-200"
+              return isExternal ? (
+                <a key={r.title} href={r.href} target="_blank" rel="noopener noreferrer" className={cls}>
+                  {inner}
+                </a>
+              ) : (
+                <Link key={r.title} href={r.href} className={cls}>
+                  {inner}
+                </Link>
+              )
+            })}
+          </div>
         </div>
       </section>
 

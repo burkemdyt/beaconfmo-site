@@ -86,34 +86,6 @@ export default function AppointmentsPage() {
         </div>
       </section>
 
-      {/* Testimonials */}
-      <section className="px-[5vw] lg:px-[10vw] py-20 lg:py-[120px]">
-        <div className="section-label reveal">From the Field</div>
-        <h2 className="section-headline reveal">Agents who switched to presets <em>never went back.</em></h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
-          {[
-            {
-              quote: "I spent 15 years doing dinner seminars. The ROI was getting worse every year. Preset appointments cut my marketing spend in half and my close rate went up. I wish I'd switched five years ago.",
-              name: 'Robert K., Independent Producer, Arizona',
-              meta: '$2.1M placed',
-            },
-            {
-              quote: "The prospect brief is the game-changer. Joining a virtual meeting already knowing the client's age, assets, and what triggered their interest \u2014 that changes the entire dynamic.",
-              name: 'Sarah M., Annuity Specialist, Ohio',
-              meta: '9 years in the field',
-            },
-          ].map((t) => (
-            <div key={t.name} className="bg-white border border-charcoal/[0.06] rounded-[6px] p-8 reveal">
-              <p className="text-[14px] font-light leading-[1.85] text-[#5a5448] mb-6 italic">
-                &ldquo;{t.quote}&rdquo;
-              </p>
-              <div className="text-[14px] font-medium text-charcoal">{t.name}</div>
-              <div className="text-[12px] font-light text-[#5a5448]/60 mt-1">{t.meta}</div>
-            </div>
-          ))}
-        </div>
-      </section>
-
       {/* CTA */}
       <section className="bg-charcoal text-center px-[7vw] py-[100px] relative overflow-hidden">
         <div className="absolute inset-0 bg-[linear-gradient(rgba(184,146,42,0.03)_1px,transparent_1px),linear-gradient(90deg,rgba(184,146,42,0.03)_1px,transparent_1px)] bg-[size:60px_60px] pointer-events-none" />
