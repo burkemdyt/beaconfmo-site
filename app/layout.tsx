@@ -35,6 +35,46 @@ export const metadata: Metadata = {
     icon: '/icon.svg',
     apple: '/icon.svg',
   },
+  openGraph: {
+    type: 'website',
+    url: 'https://www.beaconfmo.com',
+    siteName: 'BeaconFMO',
+    title: 'BeaconFMO — Independent Annuity Distribution',
+    description:
+      'Beacon partners with independent agents to deliver annuity contracts, carrier access, and back-office support you need to grow a practice worth keeping.',
+    images: [
+      {
+        url: '/logo.png',
+        width: 512,
+        height: 512,
+        alt: 'BeaconFMO',
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary',
+    title: 'BeaconFMO — Independent Annuity Distribution',
+    description:
+      'Beacon partners with independent agents to deliver annuity contracts, carrier access, and back-office support you need to grow a practice worth keeping.',
+    images: ['/logo.png'],
+  },
+}
+
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'BeaconFMO',
+  legalName: 'Beacon FMO',
+  url: 'https://www.beaconfmo.com',
+  logo: {
+    '@type': 'ImageObject',
+    url: 'https://www.beaconfmo.com/logo.png',
+    width: 512,
+    height: 512,
+  },
+  description:
+    'Independent annuity distribution partnering with agents to deliver contracts, carrier access, and back-office support.',
+  sameAs: [],
 }
 
 export default function RootLayout({
@@ -45,6 +85,10 @@ export default function RootLayout({
   return (
     <html lang="en" className={`${dmSans.variable} ${cormorant.variable}`}>
       <body className="min-h-screen antialiased">
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }}
+        />
         <Navbar />
         <ScrollProgress />
         <main>{children}</main>
