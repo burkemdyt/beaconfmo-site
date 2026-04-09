@@ -63,8 +63,10 @@ export const metadata: Metadata = {
 const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
+  '@id': 'https://www.beaconfmo.com/#organization',
   name: 'BeaconFMO',
   legalName: 'Beacon FMO',
+  alternateName: ['Beacon FMO', 'Beacon IMO'],
   url: 'https://www.beaconfmo.com',
   logo: {
     '@type': 'ImageObject',
@@ -72,9 +74,29 @@ const organizationSchema = {
     width: 512,
     height: 512,
   },
+  image: 'https://www.beaconfmo.com/logo.png',
   description:
-    'Independent annuity distribution partnering with agents to deliver contracts, carrier access, and back-office support.',
-  sameAs: [],
+    'Independent annuity FMO/IMO for licensed agents and financial advisors. 40+ A-rated carriers, AI-powered marketing tools, full back-office support, vested overrides, and no production minimums.',
+  knowsAbout: [
+    'Annuity distribution',
+    'Fixed indexed annuities',
+    'Multi-year guaranteed annuities',
+    'SPIA',
+    'Income riders',
+    'Field marketing organization',
+    'Independent marketing organization',
+    'Annuity contracts',
+    'Insurance agent recruiting',
+    'AI tools for insurance agents',
+    'Annuity marketing',
+    'Suitability compliance',
+  ],
+  sameAs: [
+    // TODO: replace with real social profile URLs once created
+    // 'https://www.linkedin.com/company/beaconfmo',
+    // 'https://x.com/beaconfmo',
+    // 'https://www.facebook.com/beaconfmo',
+  ],
 }
 
 export default function RootLayout({

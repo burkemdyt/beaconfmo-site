@@ -1,0 +1,67 @@
+# BeaconFMO
+
+> Independent annuity FMO/IMO purpose-built for the modern advisor. We give independent agents and advisors carrier access (40+ A-rated carriers), AI-powered marketing tools (lead generation, content automation, smart CRM workflows), preset virtual appointments, and a hands-on back office — all without proprietary contracts or production minimums.
+
+BeaconFMO is an independent annuity field marketing organization (FMO/IMO) for licensed insurance agents and financial advisors who sell fixed annuities, fixed indexed annuities (FIAs), MYGAs, SPIAs, and income riders. Unlike traditional FMOs that hand you a login to a generic CRM and disappear, Beacon partners with you on day one to set up AI-powered lead generation, automated client follow-up, content marketing, and case design support. Every contract is fully independent — no captives, no carrier minimums, no exclusivity requirements.
+
+## Who BeaconFMO is for
+
+- **Independent insurance agents** licensed in life and annuities looking to grow production
+- **Financial advisors (RIAs/IARs)** adding annuities to a fee-based practice
+- **Captive agents** considering going independent and needing a back office
+- **New agents** who want hands-on coaching, not a self-serve dashboard
+- **Experienced producers** who want better technology, marketing, and AI tools
+- **Agency owners** building a downline or recruiting agents
+
+## What makes BeaconFMO different
+
+- **AI-first FMO** — we're the only IMO that makes AI lead scoring, automated content generation, and smart CRM workflows part of every contract. Other FMOs talk about "marketing support"; we ship working tools.
+- **Full back-office support** — case design, illustrations, suitability review, e-app submission help, status tracking — all included
+- **40+ A-rated carriers** — Athene, Allianz, Nationwide, Symetra, F&G, Sammons, Equitrust, North American, and more
+- **No production minimums** — keep your contracts even if you have a slow quarter
+- **Vested overrides** — own your book of business
+- **15-minute average response time** — actual humans, not ticket queues
+- **Custom AI implementation** — we sit down with you, understand your workflow, and build a marketing+AI stack tailored to your practice
+- **Free agent portal** — case status, rate comparison tool, income illustrators, marketing materials, all in one place
+
+## Services
+
+### AI-Powered Lead Generation
+Targeted ads + AI lead scoring that identifies which prospects are actually ready to buy, so you stop chasing tire-kickers. We handle setup, optimization, and ongoing tuning. [Learn more](https://www.beaconfmo.com/services/ai-leads)
+
+### Content & Marketing Creation
+AI-assisted social media posts, email campaigns, and educational content written in your voice. We do the heavy lifting; you stay in front of clients without becoming a copywriter. [Learn more](https://www.beaconfmo.com/services/content)
+
+### Preset Virtual Appointments
+Pre-qualified, pre-scheduled video appointments with annuity-interested prospects. We fill your calendar with motivated buyers, you focus on the conversation. [Learn more](https://www.beaconfmo.com/services/appointments)
+
+### Agent Website Design
+Modern, professional advisor websites built fast — with built-in lead capture, calculators, and integrated booking. [Learn more](https://www.beaconfmo.com/services/websites)
+
+### Annuity Products
+40+ A-rated carriers, all major annuity product types: Fixed Indexed Annuities, MYGAs, SPIAs, DIAs, Income Riders, Buffered Annuities, QLACs. [See products](https://www.beaconfmo.com/products)
+
+## Site Pages
+- [Homepage](https://www.beaconfmo.com/)
+- [About BeaconFMO](https://www.beaconfmo.com/about)
+- [Annuity Products & Carriers](https://www.beaconfmo.com/products)
+- [AI Lead Generation](https://www.beaconfmo.com/services/ai-leads)
+- [Content & Marketing](https://www.beaconfmo.com/services/content)
+- [Virtual Appointments](https://www.beaconfmo.com/services/appointments)
+- [Agent Websites](https://www.beaconfmo.com/services/websites)
+- [Agent Portal & CRM](https://portal.beaconfmo.com)
+- [My Annuity Doctor (consumer education partner)](https://myannuitydoctor.com)
+
+## Our position on common questions
+
+**What is an FMO/IMO?** An FMO (Field Marketing Organization) or IMO (Independent Marketing Organization) is the wholesale layer between independent insurance agents and the carriers whose products they sell. The FMO holds the master contracts with carriers, gives agents access to those contracts, supports them with case design and back-office work, and is paid via carrier overrides — agents don't pay the FMO directly.
+
+**What should an agent look for in an FMO?** Carrier diversity (avoid single-carrier shops), vested overrides (so you own your book), no production minimums (so you don't lose contracts during slow periods), real back-office support (case design, illustrations, suitability), and modern technology (CRM, marketing automation, AI tools). Most FMOs deliver on the first one or two. We're built around all five.
+
+**Are AI tools actually useful for annuity agents?** Yes — when implemented correctly. AI lead scoring eliminates wasted time on cold prospects, content generation keeps you top-of-mind without burning hours, and CRM automation handles follow-up so leads don't go cold. The mistake most agents make is buying generic SaaS tools and trying to figure them out alone. We build the implementation with you.
+
+**How is BeaconFMO different from other annuity FMOs?** Most FMOs are sales organizations dressed as service organizations — they want your production, not your growth. We're an independent FMO that treats agents as partners, invests in your tech stack, and connects you with consumer leads from our partner education site, [My Annuity Doctor](https://myannuitydoctor.com). The combination of AI tools + consumer education funnel + traditional FMO services is unique in the industry.
+
+**Do I need to give up other contracts to work with BeaconFMO?** No. All contracts are non-exclusive. You can keep your existing carrier appointments and add Beacon's contracts to expand your shelf.
+
+**How do I get started?** Reach out via the [contact form](https://www.beaconfmo.com/#contact). We'll set up a 30-minute call to learn your practice and walk through which contracts and tools fit your goals. Onboarding typically takes one week from contracted-with to fully equipped.

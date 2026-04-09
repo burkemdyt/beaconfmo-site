@@ -48,9 +48,82 @@ const aiFaqItems = [
   },
 ]
 
+const homeStructuredData = {
+  '@context': 'https://schema.org',
+  '@graph': [
+    {
+      '@type': 'Service',
+      '@id': 'https://www.beaconfmo.com/#service-fmo',
+      name: 'Independent Annuity FMO/IMO',
+      serviceType: 'Annuity Distribution & Field Marketing Organization',
+      provider: { '@id': 'https://www.beaconfmo.com/#organization' },
+      areaServed: { '@type': 'Country', name: 'United States' },
+      audience: {
+        '@type': 'BusinessAudience',
+        audienceType: 'Independent insurance agents and financial advisors',
+      },
+      description:
+        'Independent annuity distribution for licensed agents and advisors. 40+ A-rated carriers, AI-powered marketing tools, full back-office support, vested overrides, and no production minimums.',
+      offers: [
+        {
+          '@type': 'Offer',
+          name: 'AI-Powered Lead Generation',
+          url: 'https://www.beaconfmo.com/services/ai-leads',
+          description:
+            'Targeted ad campaigns + AI lead scoring that identifies prospects ready to buy annuities.',
+        },
+        {
+          '@type': 'Offer',
+          name: 'Content & Marketing Creation',
+          url: 'https://www.beaconfmo.com/services/content',
+          description:
+            'AI-assisted social posts, email campaigns, and educational content written in your voice.',
+        },
+        {
+          '@type': 'Offer',
+          name: 'Preset Virtual Appointments',
+          url: 'https://www.beaconfmo.com/services/appointments',
+          description:
+            'Pre-qualified, pre-scheduled video appointments with annuity-interested prospects.',
+        },
+        {
+          '@type': 'Offer',
+          name: 'Agent Website Design',
+          url: 'https://www.beaconfmo.com/services/websites',
+          description:
+            'Modern advisor websites with built-in lead capture, calculators, and integrated booking.',
+        },
+        {
+          '@type': 'Offer',
+          name: 'Annuity Carrier Access',
+          url: 'https://www.beaconfmo.com/products',
+          description:
+            '40+ A-rated carriers across FIA, MYGA, SPIA, DIA, RILA, QLAC, and income rider products.',
+        },
+      ],
+    },
+    {
+      '@type': 'FAQPage',
+      '@id': 'https://www.beaconfmo.com/#faq',
+      mainEntity: aiFaqItems.map((item) => ({
+        '@type': 'Question',
+        name: item.question,
+        acceptedAnswer: {
+          '@type': 'Answer',
+          text: item.answer,
+        },
+      })),
+    },
+  ],
+}
+
 export default function Home() {
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(homeStructuredData) }}
+      />
       {/* ── HERO ── */}
       <section className="relative min-h-screen flex items-center bg-charcoal overflow-hidden">
         <GradientOrbs />
