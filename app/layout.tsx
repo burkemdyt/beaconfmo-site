@@ -20,12 +20,17 @@ const cormorant = Cormorant_Garamond({
 })
 
 export const metadata: Metadata = {
+  // Canonical base — www is the live host; apex 308-redirects here.
+  metadataBase: new URL('https://www.beaconfmo.com'),
   title: {
     default: 'BeaconFMO — Independent Annuity Distribution',
     template: '%s | BeaconFMO',
   },
   description:
     'Beacon partners with independent agents to deliver annuity contracts, carrier access, and back-office support you need to grow a practice worth keeping.',
+  alternates: {
+    canonical: '/',
+  },
   icons: {
     icon: '/icon.svg',
     apple: '/icon.svg',
